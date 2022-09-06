@@ -1,0 +1,25 @@
+$font-default: "Poppins", sans-serif;
+
+$color-white: var(--color-white);
+$color-black: var(--color-black);
+$color-blue: var(--color-blue);
+$color-blueLight: var(--color-blueLight);
+$color-blueDark: var(--color-blueDark);
+$color-gray: var(--color-gray);
+$color-grayDark: var(--color-grayDark);
+$color-red: var(--color-red);
+
+$bp-mobile: 767;
+$bp-tablet: 1024;
+$bp-desktop: 1200;
+
+:root {
+  --color-white: #fff;
+  --color-black: #111827;
+  --color-blue: #4338ca;
+  --color-blueLight: #a5b4fc;
+  --color-blueDark: #002c49;
+  --color-gray: #e5e7eb;
+  --color-grayDark: #1f2937;
+  --color-red: #991a42;
+}
