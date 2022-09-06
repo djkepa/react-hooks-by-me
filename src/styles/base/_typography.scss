@@ -1,0 +1,49 @@
+.heading-1 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 52px;
+
+  @include mobile {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+
+.heading-2 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+
+  @include mobile {
+    font-size: 30px;
+    line-height: 34px;
+  }
+}
+
+.heading-3 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 30px;
+
+  @include mobile {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+.heading-4 {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.paragraph {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}

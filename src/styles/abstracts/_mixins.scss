@@ -1,0 +1,42 @@
+@mixin focus {
+  &:focus {
+    border: 1px solid $color-blue;
+    box-shadow: rgb(255, 255, 255) 0 0 0 0, rgba(199, 210, 254, 0.5) 0 0 0 3px, rgb(255, 255, 255) 0 0 0 0;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: #{$bp-mobile}px) {
+    @content;
+  }
+}
+
+@mixin non-mobile {
+  @media (min-width: #{$bp-mobile + 1}px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: #{$bp-tablet}px) {
+    @content;
+  }
+}
+
+@mixin tablet-only {
+  @media (min-width: #{$bp-mobile + 1}px) and (max-width: #{$bp-tablet}px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$bp-tablet + 1}px) {
+    @content;
+  }
+}
+
+@mixin desktop-large {
+  @media (min-width: #{$bp-desktop + 1}px) {
+    @content;
+  }
+}
